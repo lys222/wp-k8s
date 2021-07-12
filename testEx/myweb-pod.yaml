@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myweb-pod
+spec:
+  containers:
+  - image: httpd:alpine
+    name: myweb
+    ports:
+    - containerPort: 80
