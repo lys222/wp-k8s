@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1626621910,,"wq"
+|2,0,1626624421,,"wq"
 :q
-|2,0,1626621660,,"q"
+|2,0,1626623399,,"q"
 :Q
 |2,0,1626621143,,"Q"
 
@@ -27,260 +27,292 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	  - 192.168.200.51
+|3,0,0,1,1,0,1626623493,"  - 192.168.200.51"
 ""1	LINE	0
-	  replicas: 2
-|3,1,1,1,1,0,1626621908,"  replicas: 2"
+	  - 10.101.215.163
+|3,1,1,1,1,0,1626623495,"  - 10.101.215.163"
 "2	LINE	0
-	            memory: 20Mi
-|3,0,2,1,1,0,1626621899,"            memory: 20Mi"
+	  replicas: 2
+|3,0,2,1,1,0,1626621908,"  replicas: 2"
 "3	LINE	0
-	            cpu: 100m
-|3,0,3,1,1,0,1626621898,"            cpu: 100m"
+	            memory: 20Mi
+|3,0,3,1,1,0,1626621899,"            memory: 20Mi"
 "4	LINE	0
-	          requests:
-|3,0,4,1,1,0,1626621898,"          requests:"
+	            cpu: 100m
+|3,0,4,1,1,0,1626621898,"            cpu: 100m"
 "5	LINE	0
-	        resources:
-|3,0,5,1,1,0,1626621897,"        resources:"
+	          requests:
+|3,0,5,1,1,0,1626621898,"          requests:"
 "6	LINE	0
-	          limits:
-|3,0,6,1,1,0,1626621896,"          limits:"
+	        resources:
+|3,0,6,1,1,0,1626621897,"        resources:"
 "7	LINE	0
+	          limits:
+|3,0,7,1,1,0,1626621896,"          limits:"
+"8	LINE	0
 	            cpu: 200m
 	            memory:50Mi
-|3,0,7,1,2,0,1626621894,"            cpu: 200m","            memory:50Mi"
-"8	LINE	0
-	#  externalIPs:
-|3,0,8,1,1,0,1626621533,"#  externalIPs:"
+|3,0,8,1,2,0,1626621894,"            cpu: 200m","            memory:50Mi"
 "9	LINE	0
-	#  - 192.168.200.51
-|3,0,9,1,1,0,1626621532,"#  - 192.168.200.51"
+	#  externalIPs:
+|3,0,9,1,1,0,1626621533,"#  externalIPs:"
 
 # File marks:
-'0  35  2  ~/proj/wordpress-deployment.yaml
-|4,48,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
-'1  58  18  ~/proj/wordpress-deployment.yaml
-|4,49,58,18,1626621819,"~/proj/wordpress-deployment.yaml"
-'2  64  18  ~/proj/wordpress-deployment.yaml
-|4,50,64,18,1626621819,"~/proj/wordpress-deployment.yaml"
-'3  53  0  ~/proj/mysql-deployment.yaml
-|4,51,53,0,1626621660,"~/proj/mysql-deployment.yaml"
-'4  67  0  ~/proj/wordpress-deployment.yaml
-|4,52,67,0,1626621628,"~/proj/wordpress-deployment.yaml"
-'5  59  0  ~/proj/wordpress-deployment.yaml
-|4,53,59,0,1626621628,"~/proj/wordpress-deployment.yaml"
-'6  75  0  ~/proj/wordpress-deployment.yaml
-|4,54,75,0,1626621628,"~/proj/wordpress-deployment.yaml"
-'7  67  0  ~/proj/wordpress-deployment.yaml
-|4,55,67,0,1626621628,"~/proj/wordpress-deployment.yaml"
-'8  67  0  ~/proj/wordpress-deployment.yaml
-|4,56,67,0,1626621588,"~/proj/wordpress-deployment.yaml"
-'9  59  0  ~/proj/wordpress-deployment.yaml
-|4,57,59,0,1626621588,"~/proj/wordpress-deployment.yaml"
+'0  81  10  ~/wordpress-deployment.yaml
+|4,48,81,10,1626624421,"~/wordpress-deployment.yaml"
+'1  75  3  ~/wordpress-deployment.yaml
+|4,49,75,3,1626624311,"~/wordpress-deployment.yaml"
+'2  75  3  ~/wordpress-deployment.yaml
+|4,50,75,3,1626624311,"~/wordpress-deployment.yaml"
+'3  83  24  ~/wordpress-deployment.yaml
+|4,51,83,24,1626624215,"~/wordpress-deployment.yaml"
+'4  83  24  ~/wordpress-deployment.yaml
+|4,52,83,24,1626624215,"~/wordpress-deployment.yaml"
+'5  83  24  ~/wordpress-deployment.yaml
+|4,53,83,24,1626624215,"~/wordpress-deployment.yaml"
+'6  83  24  ~/wordpress-deployment.yaml
+|4,54,83,24,1626624215,"~/wordpress-deployment.yaml"
+'7  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,55,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+'8  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,56,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+'9  1  0  ~/wordpress-deployment.yaml
+|4,57,1,0,1626623054,"~/wordpress-deployment.yaml"
 
 # Jumplist (newest first):
+-'  81  10  ~/wordpress-deployment.yaml
+|4,39,81,10,1626624421,"~/wordpress-deployment.yaml"
+-'  1  0  ~/wordpress-deployment.yaml
+|4,39,1,0,1626624404,"~/wordpress-deployment.yaml"
+-'  75  3  ~/wordpress-deployment.yaml
+|4,39,75,3,1626624311,"~/wordpress-deployment.yaml"
+-'  75  3  ~/wordpress-deployment.yaml
+|4,39,75,3,1626624311,"~/wordpress-deployment.yaml"
+-'  1  0  ~/wordpress-deployment.yaml
+|4,39,1,0,1626624298,"~/wordpress-deployment.yaml"
+-'  83  24  ~/wordpress-deployment.yaml
+|4,39,83,24,1626624215,"~/wordpress-deployment.yaml"
+-'  83  24  ~/wordpress-deployment.yaml
+|4,39,83,24,1626624215,"~/wordpress-deployment.yaml"
+-'  83  24  ~/wordpress-deployment.yaml
+|4,39,83,24,1626624215,"~/wordpress-deployment.yaml"
+-'  1  0  ~/wordpress-deployment.yaml
+|4,39,1,0,1626623680,"~/wordpress-deployment.yaml"
+-'  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,39,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+-'  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,39,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+-'  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,39,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+-'  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,39,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+-'  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,39,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+-'  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,39,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+-'  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,39,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+-'  28  17  /tmp/kubectl-edit-owqmo.yaml
+|4,39,28,17,1626623530,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-owqmo.yaml
+|4,39,1,0,1626623438,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-owqmo.yaml
+|4,39,1,0,1626623438,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-owqmo.yaml
+|4,39,1,0,1626623438,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-owqmo.yaml
+|4,39,1,0,1626623438,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-owqmo.yaml
+|4,39,1,0,1626623438,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-owqmo.yaml
+|4,39,1,0,1626623438,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-owqmo.yaml
+|4,39,1,0,1626623438,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-owqmo.yaml
+|4,39,1,0,1626623438,"/tmp/kubectl-edit-owqmo.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  /tmp/kubectl-edit-9eehp.yaml
+|4,39,1,0,1626623399,"/tmp/kubectl-edit-9eehp.yaml"
+-'  1  0  ~/wordpress-deployment.yaml
+|4,39,1,0,1626623054,"~/wordpress-deployment.yaml"
+-'  1  0  ~/wordpress-deployment.yaml
+|4,39,1,0,1626623054,"~/wordpress-deployment.yaml"
+-'  1  0  ~/wordpress-deployment.yaml
+|4,39,1,0,1626623054,"~/wordpress-deployment.yaml"
+-'  1  0  ~/wordpress-deployment.yaml
+|4,39,1,0,1626623054,"~/wordpress-deployment.yaml"
 -'  35  2  ~/proj/wordpress-deployment.yaml
 |4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621837,"~/proj/wordpress-deployment.yaml"
--'  58  18  ~/proj/wordpress-deployment.yaml
-|4,39,58,18,1626621819,"~/proj/wordpress-deployment.yaml"
--'  64  18  ~/proj/wordpress-deployment.yaml
-|4,39,64,18,1626621819,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621661,"~/proj/wordpress-deployment.yaml"
--'  53  0  ~/proj/mysql-deployment.yaml
-|4,39,53,0,1626621660,"~/proj/mysql-deployment.yaml"
--'  53  0  ~/proj/mysql-deployment.yaml
-|4,39,53,0,1626621660,"~/proj/mysql-deployment.yaml"
--'  53  0  ~/proj/mysql-deployment.yaml
-|4,39,53,0,1626621660,"~/proj/mysql-deployment.yaml"
--'  53  0  ~/proj/mysql-deployment.yaml
-|4,39,53,0,1626621660,"~/proj/mysql-deployment.yaml"
--'  1  0  ~/proj/mysql-deployment.yaml
-|4,39,1,0,1626621631,"~/proj/mysql-deployment.yaml"
--'  1  0  ~/proj/mysql-deployment.yaml
-|4,39,1,0,1626621631,"~/proj/mysql-deployment.yaml"
--'  1  0  ~/proj/mysql-deployment.yaml
-|4,39,1,0,1626621631,"~/proj/mysql-deployment.yaml"
--'  1  0  ~/proj/mysql-deployment.yaml
-|4,39,1,0,1626621631,"~/proj/mysql-deployment.yaml"
--'  67  0  ~/proj/wordpress-deployment.yaml
-|4,39,67,0,1626621628,"~/proj/wordpress-deployment.yaml"
--'  59  0  ~/proj/wordpress-deployment.yaml
-|4,39,59,0,1626621628,"~/proj/wordpress-deployment.yaml"
--'  75  0  ~/proj/wordpress-deployment.yaml
-|4,39,75,0,1626621628,"~/proj/wordpress-deployment.yaml"
--'  67  0  ~/proj/wordpress-deployment.yaml
-|4,39,67,0,1626621628,"~/proj/wordpress-deployment.yaml"
--'  67  0  ~/proj/wordpress-deployment.yaml
-|4,39,67,0,1626621628,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621623,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621623,"~/proj/wordpress-deployment.yaml"
--'  67  0  ~/proj/wordpress-deployment.yaml
-|4,39,67,0,1626621588,"~/proj/wordpress-deployment.yaml"
--'  67  0  ~/proj/wordpress-deployment.yaml
-|4,39,67,0,1626621588,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621536,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621536,"~/proj/wordpress-deployment.yaml"
--'  14  0  ~/proj/wordpress-deployment.yaml
-|4,39,14,0,1626621535,"~/proj/wordpress-deployment.yaml"
--'  14  0  ~/proj/wordpress-deployment.yaml
-|4,39,14,0,1626621535,"~/proj/wordpress-deployment.yaml"
--'  14  0  ~/proj/wordpress-deployment.yaml
-|4,39,14,0,1626621535,"~/proj/wordpress-deployment.yaml"
--'  14  0  ~/proj/wordpress-deployment.yaml
-|4,39,14,0,1626621535,"~/proj/wordpress-deployment.yaml"
--'  14  0  ~/proj/wordpress-deployment.yaml
-|4,39,14,0,1626621535,"~/proj/wordpress-deployment.yaml"
--'  14  0  ~/proj/wordpress-deployment.yaml
-|4,39,14,0,1626621535,"~/proj/wordpress-deployment.yaml"
--'  14  0  ~/proj/wordpress-deployment.yaml
-|4,39,14,0,1626621535,"~/proj/wordpress-deployment.yaml"
--'  14  0  ~/proj/wordpress-deployment.yaml
-|4,39,14,0,1626621535,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621522,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621522,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621144,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626621144,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626620051,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626620045,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626620045,"~/proj/wordpress-deployment.yaml"
--'  15  17  ~/proj/wordpress-deployment.yaml
-|4,39,15,17,1626619914,"~/proj/wordpress-deployment.yaml"
--'  15  17  ~/proj/wordpress-deployment.yaml
-|4,39,15,17,1626619914,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619905,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619905,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626619397,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626619397,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619391,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619391,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626619175,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626619175,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619167,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619167,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626619132,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626619132,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619127,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619127,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626619099,"~/proj/wordpress-deployment.yaml"
--'  15  0  ~/proj/wordpress-deployment.yaml
-|4,39,15,0,1626619099,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619092,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619092,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619063,"~/proj/wordpress-deployment.yaml"
--'  1  0  ~/proj/wordpress-deployment.yaml
-|4,39,1,0,1626619063,"~/proj/wordpress-deployment.yaml"
--'  26  15  ~/proj/wordpress-deployment.yaml
-|4,39,26,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  26  15  ~/proj/wordpress-deployment.yaml
-|4,39,26,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  26  15  ~/proj/wordpress-deployment.yaml
-|4,39,26,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  26  15  ~/proj/wordpress-deployment.yaml
-|4,39,26,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  26  15  ~/proj/wordpress-deployment.yaml
-|4,39,26,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  26  15  ~/proj/wordpress-deployment.yaml
-|4,39,26,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  26  15  ~/proj/wordpress-deployment.yaml
-|4,39,26,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  26  15  ~/proj/wordpress-deployment.yaml
-|4,39,26,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
--'  28  15  ~/proj/wordpress-deployment.yaml
-|4,39,28,15,1626619023,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
+-'  35  2  ~/proj/wordpress-deployment.yaml
+|4,39,35,2,1626621910,"~/proj/wordpress-deployment.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/wordpress-deployment.yaml
+	*	1626624420	0
+	"	81	10
+	^	81	11
+	.	81	11
+	+	72	17
+	+	73	8
+	+	72	14
+	+	82	32
+	+	83	24
+	+	75	4
+	+	81	11
+
+> /tmp/kubectl-edit-owqmo.yaml
+	*	1626623529	0
+	"	28	17
+	^	28	18
+	.	28	17
+	+	25	14
+	+	26	17
+	+	29	0
+	+	27	2
+	+	34	3
+	+	28	17
+
+> /tmp/kubectl-edit-9eehp.yaml
+	*	1626623081	0
+	"	1	0
 
 > ~/proj/wordpress-deployment.yaml
 	*	1626621909	0
