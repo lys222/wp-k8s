@@ -299,3 +299,5 @@ kubectl edit deployment metrics-server -n kube-system
 kubectl get deployment metrics-server -n kube-system
 kubectl top nodes
 ```
+---
+[노션으로 보기](https://www.notion.so/k8s-083ab4e1be654149bae01854187e0b49)
